@@ -1,0 +1,98 @@
+.Open-user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.open-heading {
+  color: black;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.open-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.open-body-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.age-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.age-para {
+  color: gray;
+  font-size: 17px;
+}
+
+.caluted-age-1 {
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 5px 10px, 5px, 20px;
+}
+
+.description-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.description-para {
+  color: gray;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.description-1 {
+  color: black;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 80px;
+}
+
+.open-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.delete-icon-1 {
+  height: 25px;
+  width: 25px;
+  color: red;
+  margin-right: 20px;
+}
+
+.edit-icon-1 {
+  height: 25px;
+  width: 25px;
+  color: greenyellow;
+}

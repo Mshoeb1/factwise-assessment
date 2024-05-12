@@ -1,0 +1,192 @@
+.closed-select-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  background-color: transparent;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.view-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 10px 10px 10px 30px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.user-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 25px;
+  border-radius: 100%;
+}
+
+.list-span {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.dropdown {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+}
+
+.list-view-container::-webkit-scrollbar {
+  display: none;
+}
+
+.closed-render-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 10px 20px 10px 20px;
+  width: 100%;
+  background-color: transparent;
+  height: 250px;
+  overflow: auto;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.closed-render-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+.crad-option {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.mini-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mini-dropdown {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+  color: black;
+}
+
+.Open-user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.open-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.open-body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.age-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.age-para {
+  color: gray;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.caluted-age {
+  color: black;
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.description-para {
+  color: gray;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.description {
+  color: black;
+  font-size: 15px;
+}
+
+.open-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.delete-icon {
+  height: 25px;
+  width: 25px;
+  color: red;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.edit-icon {
+  height: 25px;
+  width: 25px;
+  color: rgb(83, 102, 245);
+  cursor: pointer;
+}
